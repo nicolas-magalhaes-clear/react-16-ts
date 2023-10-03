@@ -1,7 +1,35 @@
 .AppContainer{
   display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
   align-items: center;
   justify-content: center;
+}
+.yellow{
+  color: yellow;
+}
+.exercises-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-col{
+  display: flex;
+  flex-direction: column;
+}
+.exercises-container > * {
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+  background-color: darkblue;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px 0px rgba(252, 252, 252, 0.185)
+}
+
+.bg-red{
+  background-color: red;
+}
+.p-1{
+  padding: 1rem;
 }
